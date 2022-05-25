@@ -1,0 +1,38 @@
+[
+    {
+      "name": "何嘉仁海外招募官網",
+      "brand": "HESS EDUCATION",
+      "id": "HESS",
+      "img":"img/work/cover-hess.jpg",
+      "indexIntro": "針對海外教師專屬規劃內容，一站式統合所需資訊。"
+    },
+    {
+        "name": "得利輕鬆刷派工系統",
+        "brand": "DULUX得利塗料",
+        "id":"DULUX",
+        "img":"img/work/cover-dulux.jpg",
+        "indexIntro": "透過線上媒合得利嚴選工班，為您輕鬆解決塗刷大小事！"
+      },
+      {
+        "name": "仁山利舒產品官網",
+        "brand": "NIZORAL",
+        "id":"NIZORAL",
+        "img":"img/work/cover-nizoral.jpg",
+        "indexIntro": "熟齡品牌數位佈局再出發，一步步走入消費者的日常生活。"
+      },
+      {
+        "name": "言衍室內設計官網",
+        "brand": "YENYEN",
+        "id":"YENYEN",
+        "img":"img/work/cover-yen.jpg",
+        "indexIntro": "空間是你對生活的想像，透過網站在第一時間更認識言衍。"
+      },
+      {
+        "name": "Google智慧音箱官網",
+        "brand": "FETnet",
+        "id":"FETnet",
+        "img":"img/work/cover-google.jpg",
+        "indexIntro": "智能生活再進化，兩大品牌攜手打造音箱小幫手。"
+      }
+  
+    ] 
