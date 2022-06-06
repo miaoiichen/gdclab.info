@@ -14,7 +14,7 @@ export default {
 };
 </script>
 <template>
-<div  class="flex w-full fixed z-50">
+<div  class="flex w-full fixed z-40">
   <router-link 
   to="/" 
   v-scroll-to="'#index'" 
@@ -74,28 +74,30 @@ export default {
     margin-left: 50%;
    
   }
-}
-.burger-close{
-  padding-bottom: 15px;
-  span{
-    transform: rotate(-45deg);
-    margin-top: 11px;
+  // &:hover{
+
+  //    padding-bottom: 15px;
+  //    span{
+  //   transform: rotate(-45deg);
+  //   margin-top: 11px;
    
-  }
-  span:nth-child(2){
-    width: 100%;
-    transform: rotate(45deg);
-    margin-left: 0%;
-    margin-top: -4px;
+  // }
+  // span:nth-child(2){
+  //   width: 100%;
+  //   transform: rotate(45deg);
+  //   margin-left: 0%;
+  //   margin-top: -5px;
    
-  }
+  // }
+  // }
 }
+
 @media (min-width: 640px) {
-  .burger-close{
-  
+  .burger{
+    &:hover{
     span:nth-child(2){
       margin-top: -13px;
-     
+    }
     }
   }
 }

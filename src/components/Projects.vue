@@ -14,7 +14,7 @@ setup(){
    }
 
     onMounted(()=>{
-        axios.get("../js/project.json").then((res)=>{
+        axios.get("js/project.json").then((res)=>{
             console.log(res.data);
             projectArr.data = res.data;
            
@@ -37,7 +37,10 @@ setup(){
                 <div class=" white-line trapezoid border-t-0 border-b-0 "></div>
                     -->
     <!--/FOLDER BG-->
-   
+    <div class="projectWord">
+              <h2 class="text-green-500 font-black">GROOVY PROJECT  GROOVY PROJECT   OUR GROOVY PROJECT </h2>
+              <h2 class="font-black h2-outline">GROOVY PROJECT  GROOVY PROJECT   OUR GROOVY PROJECT </h2>
+    </div>
         <div class="caseMain">
            <div v-for="item in projectArr.data" :key="item.id"  class="caseRounded white-line" @click="gotoNewRouter(item.id)">
 
@@ -61,16 +64,11 @@ setup(){
                                     </div>
 
                             </a>
-
                 </div> 
-
-
-
-
            </div>
 
             
-</div>
+        </div>
        
 
 
@@ -89,7 +87,7 @@ setup(){
 
 <style lang="postcss" scoped>
 .mainPadding{
-  @apply p-6 py-8 pb-12 md:p-24 sm:mt-0 md:pb-12 w-full mt-20;
+  @apply p-6 py-8 pb-12 md:p-24 sm:mt-0 md:pb-12 w-full mt-0;
 }
 .caseMain{
   @apply relative text-white w-full grid sm:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-24 xl:gap-12 xl:max-w-6xl mx-auto;
@@ -159,6 +157,7 @@ $green-500:rgb(74,222,128);
     }
 }
 @media (min-width: 600px) {
+
 .caseRounded{
     border-radius:8rem 8rem 0 0;
     }
@@ -244,4 +243,66 @@ $green-500:rgb(74,222,128);
   transform-origin: top right;
 }
 }
+
+
+.projectWord{
+  font-size: 6rem;
+  width: 120%;
+  h2{
+    transition: 2s;
+    white-space:nowrap;
+    animation:pw infinite linear 40s;
+    // &.active{
+    //   margin-left:-1000px;
+    // }
+  }
+  .h2-outline{
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color:transparent;
+    margin-left:-1000px;
+    margin-top: -3rem;
+     animation:pwOutline infinite linear 50s;
+    // &.active{
+    //   margin-left:0px;
+    // }
+  }
+}
+
+@media (min-width: 768px) {
+  .projectWord{
+    font-size: 9rem;
+    .h2-outline{
+      margin-top: -4rem;
+    }
+  }
+}
+
+@keyframes pw {
+  0%{
+     margin-left:0px;
+  }
+  50%{
+     margin-left:-1000px;
+  }
+  100%{
+     margin-left:0px;
+  }
+}
+
+@keyframes pwOutline {
+  0%{
+     margin-left:-1000px;
+  }
+  50%{
+     margin-left:0px;
+  }
+  100%{
+     margin-left:-1000px;
+  }
+}
+
+
+
+
+
 </style>

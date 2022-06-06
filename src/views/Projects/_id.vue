@@ -24,7 +24,7 @@ export default {
      router.push(`views/Porjects/${id}`);
    }
     onMounted(()=>{
-       axios.get("../js/project.json").then((res)=>{
+       axios.get("js/project.json").then((res)=>{
          //  console.log(res.data[0]);
             
             projectArr.data = res.data;
@@ -86,7 +86,7 @@ export default {
            
         });
 
-      axios.get(`../js/${route.params.id}.json`).then((res)=>{
+      axios.get(`js/${route.params.id}.json`).then((res)=>{
         project.data = res.data;
         tags.data = res.data.tags;
         content.data = res.data.content;
@@ -159,7 +159,7 @@ export default {
                      <div class="eye absolute w-4 h-4 flex justify-center items-center">
                        <div class="bg-teal-400 rounded-full w-full h-full"></div>
                      </div>
-                     <div class="p-0.5"><img src="/img/eye.svg" alt=""></div>
+                     <div class="p-0.5"><img src="img/eye.svg" alt=""></div>
                      
                    </div>
               </a>
@@ -318,7 +318,9 @@ $green-500:rgb(74,222,128);
     }
 }
 @media (min-width: 1024px) {
-
+  .caseRounded{
+    border-radius:8rem 8rem 0 0;
+  }
 }
 .caseMore{
     background:#001664;

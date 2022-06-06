@@ -12,21 +12,22 @@ export default {
 
    mounted(){
       this.showMyDiv() ;
-      gsap.to(".ticket-flat",{
+      gsap.to(".tc-container",{
         scrollTrigger:{
-        trigger: "#app",
+        trigger: "#about",
         markers: false,
         start: "center center",
-        toggleActions: "play none none reverse",
+        end: "+=400", 
         toggleClass: {targets: ".tc-container", className: "active"},
         },
         duration:0,
         });
       gsap.to(".ticket-flat",{
         scrollTrigger:{
-        trigger:  "#app",
+        trigger:  "#about",
         markers: false,
-        start: "center center",
+         start: "center center",
+        end: "+=400", 
         toggleClass:{targets: ".ticket-flat", className: "active"},
         },
         duration:0,
@@ -119,7 +120,7 @@ export default {
                             <div class="flex pb-1  ">
                                 <p class="text-base">\ groovy﹒ˈɡruː.viˈ / </p>
                                 
-                                <span class="w-6 ml-2 hover:opacity-70 cursor-pointer"><img src="/img/vol.svg" alt=""></span>
+                                <span class="w-6 ml-2 hover:opacity-70 cursor-pointer"><img src="img/vol.svg" alt=""></span>
                             </div>
                             <p class="pb-2 text-base md:text-sm lg:text-base">(adj).fashionable and interesting. </p>
                             <P class="text-base md:text-sm lg:text-base xl:pr-8 pr-0 pb-2">
@@ -144,7 +145,7 @@ export default {
                         </div>
                         <div  class=" w-full xl:w-9/12 ">
                             <div class="px-20 xl:p-0 pt-5 pb-8 md:pb-12 max-w-sm sm:w-6/12 xl:w-full mx-auto xl:h-full xl:flex xl:justify-center xl:content-center" > 
-                                <img class="xl:transform xl:-rotate-90" src="/img/barcode.svg" alt="">
+                                <img class="xl:transform xl:-rotate-90" src="img/barcode.svg" alt="">
                             </div>
                         <div  class="md:w-24 md:h-24 w-16 h-16 absolute flex justify-center items-center md:-right-12 -right-4 bottom-6">
                             <span class="flat"></span>
@@ -196,7 +197,7 @@ $green-500:rgb(74,222,128);
    
 .tc-container {
   position: absolute;
-  top: -50px;
+  top: 0px;
   left: 50%;
   margin-left: -120px;
   z-index: 6;
@@ -310,7 +311,7 @@ $green-500:rgb(74,222,128);
 @media (min-width: 1024px) {
 .ticket-flat{
  .tc-container{
-     top:50px;
+     top:80px;
  }
  }
 }

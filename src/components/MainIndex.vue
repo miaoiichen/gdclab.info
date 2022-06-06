@@ -34,11 +34,11 @@ export default {
                     </div>
                     <!--KvObj-->
                     <div class="kvObj" >
-                        <div class="circle" data-aos="fade-right"  data-aos-delay="100" ><img src="/img/kv-circle01.png" alt=""></div><!--圓環-->
-                        <div class="zig"  data-aos="fade-left" ><img src="/img/kv-sq01.png" alt=""></div><!--鋸齒-->
-                        <div class="block  block01" data-aos="fade-down" ><img src="/img/kv-sq02.png" alt=""></div><!--方塊-->
-                        <div class="block  block02" data-aos="fade-up"  data-aos-delay="100"><img src="/img/kv-sq02.png" alt=""></div><!--方塊-->
-                        <div class="block  block03" data-aos="fade-down"  data-aos-delay="200" ><img src="/img/kv-sq02.png" alt=""></div><!--方塊--> 
+                        <div class="circle" data-aos="fade-right"  data-aos-delay="100" ><img src="img/kv-circle01.png" alt=""></div><!--圓環-->
+                        <div class="zig"  data-aos="fade-left" ><img src="img/kv-sq01.png" alt=""></div><!--鋸齒-->
+                        <div class="block  block01" data-aos="fade-down" ><img src="img/kv-sq02.png" alt=""></div><!--方塊-->
+                        <div class="block  block02" data-aos="fade-up"  data-aos-delay="100"><img src="img/kv-sq02.png" alt=""></div><!--方塊-->
+                        <div class="block  block03" data-aos="fade-down"  data-aos-delay="200" ><img src="img/kv-sq02.png" alt=""></div><!--方塊--> 
                     </div>
                     <!--Oval-->
                      <div class="ovals" data-aos="flip-left"  data-aos-delay="400">
@@ -48,7 +48,7 @@ export default {
                         <div class="oval"></div>
 
                          <!--BALL-->
-                        <div class="ovalsBall" data-aos="zoom-in-up"  data-aos-delay="400"><img src="/img/kv-ball01.png" alt=""></div><!--左球-->
+                        <div class="ovalsBall" data-aos="zoom-in-up"  data-aos-delay="400"><img src="img/kv-ball01.png" alt=""></div><!--左球-->
                     </div>  
                     
             </div>
@@ -81,7 +81,7 @@ export default {
                       <div  class="index-whatWeDo-outer index-whatWeDo-block md:-top-6 md:left-6 top-1 left-1 wline01  white-line  "></div>
                       <div  class="index-whatWeDo-outer index-whatWeDo-block md:-top-3 md:left-3 top-2 left-2 wline02  white-line  "></div>
                       <!--BALL-->
-                        <div class="w-12 md:w-16 lg:w-24 absolute z-40 top-28 -left-8 lg:-left-12 lg:top-44" data-aos="zoom-in-down"  data-aos-delay="600"><img src="/img/kv-ball01.png" alt=""></div>
+                        <div class="w-12 md:w-16 lg:w-24 absolute z-40 top-28 -left-8 lg:-left-12 lg:top-44" data-aos="zoom-in-down"  data-aos-delay="600"><img src="img/kv-ball01.png" alt=""></div>
 
                     
                     
@@ -96,7 +96,7 @@ export default {
                                 <div class="index-mainBtn btn">
                                     <h3 class="absolute md:p-10 p-3 pt-5 pl-4">
                                         <div>
-                                            <img src="/img/kv-workword.svg" alt="">
+                                            <img src="img/kv-workword.svg" alt="">
                                         </div>
                                         
                                         <div  class="md:w-5 md:h-5 h-4 w-4 absolute flex justify-center items-center md:left-24 md:ml-0.5  md:top-20 md:mt-3 left-14 ml-1  top-14 mt-1 ">
@@ -244,30 +244,76 @@ $green-500:rgb(74,222,128);
     }
 } 
 .circle{
-    animation: circle-ani 15s linear infinite ;
+    animation: circleAni 15s linear infinite ;
 }
-@keyframes circle-ani {
+@keyframes circleAni {
   0% {
-    margin-left:0%;
-    margin-top: 00%;
+   transform:translate3d(0,0,0)
+   
   }
   25% {
-    margin-left: -10%;
-    margin-top: 5%;
+    transform:translate3d(-20px,20px,-20px)
   }
   50% {
-    margin-left:00%;
-    margin-top: 15%;
+   transform:translate3d(20px,20px,20px)
   }
   75% {
-    margin-left: 10%;
-    margin-top: 5%;
+  transform:translate3d(20px,-20px,0)
   }
   100% {
-     margin-left:00%;
-     margin-top: 00%;
+   transform:translate3d(0,0,0)
   }
 }
+
+.zig{
+    animation: zigAnni 15s linear infinite ;
+}
+@keyframes zigAnni {
+  0% {
+   transform:translate3d(0,0,0)
+  }
+  25% {
+     transform:translate3d(20px,20px,20px)
+    
+  }
+  50% {
+   transform:translate3d(-20px,20px,-20px)
+  }
+  75% {
+  transform:translate3d(20px,-20px,0)
+  }
+  100% {
+   transform:translate3d(0,0,0)
+  }
+}
+
+.block01{
+
+    animation: b1Anni 10s linear infinite ;
+}
+@keyframes b1Anni {
+  0% {
+   transform:translate3d(0,0,0)
+  }
+  50% {
+    transform:translate3d(20px,-20px,20px)
+  }
+  100% {
+   transform:translate3d(0,0,0)
+  }
+}
+
+.block02{
+
+    animation: b1Anni 10s linear infinite ;
+    animation-delay: 3s;
+}
+.block03{
+
+    animation: b1Anni 10s linear infinite ;
+    animation-delay: 6s;
+}
+
 
 
 .ovals{

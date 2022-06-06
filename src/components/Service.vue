@@ -33,7 +33,7 @@ export default {
                     <div class="serviceContent">
                         <div class="serviceImg ">
                             <h2>WEBSITE<br>SYSTEM</h2>
-                            <img  src="/img/wwdo01.jpg" alt="">
+                            <img  src="img/wwdo01.jpg" alt="">
                         </div>
                         <div class="servieUl  ">
                             <h2 >網站與系統建置</h2>
@@ -49,8 +49,8 @@ export default {
                     </div>
 
                     <div class="serviceWindowRight">
-                        <span class="arrow border-b"><img  src="/img/arrow.svg" alt=""></span>
-                        <span class="arrow border-t absolute bottom-0"><img class="transform rotate-180"  src="/img/arrow.svg" alt=""></span>
+                        <span class="arrow border-b"><img  src="img/arrow.svg" alt=""></span>
+                        <span class="arrow border-t absolute bottom-0"><img class="transform rotate-180"  src="img/arrow.svg" alt=""></span>
                         <span class="scrollBar"></span>
                     </div>
 
@@ -77,7 +77,7 @@ export default {
                     <div class="serviceContent">
                         <div class="serviceImg">
                             <h2>FILM&<br>ANIMATION</h2>
-                            <img  src="/img/wwdo03.jpg" alt="">
+                            <img  src="img/wwdo03.jpg" alt="">
                         </div>
                         <div class="servieUl">
                             <h2 >動態視覺規劃</h2>
@@ -92,8 +92,8 @@ export default {
                     </div>
 
                      <div class="serviceWindowRight">
-                        <span class="arrow border-b"><img  src="/img/arrow.svg" alt=""></span>
-                        <span class="arrow border-t absolute bottom-0"><img class="transform rotate-180"  src="/img/arrow.svg" alt=""></span>
+                        <span class="arrow border-b"><img  src="img/arrow.svg" alt=""></span>
+                        <span class="arrow border-t absolute bottom-0"><img class="transform rotate-180"  src="img/arrow.svg" alt=""></span>
                         <span class="scrollBar"></span>
                     </div>
 
@@ -121,7 +121,7 @@ export default {
                     <div class="serviceContent">
                         <div class="serviceImg">
                             <h2>INTERGRATED<br>MARKETING</h2>
-                            <img  src="/img/wwdo02.jpg" alt="">
+                            <img  src="img/wwdo02.jpg" alt="">
                         </div>
                         <div class="servieUl">
                             <h2 >整合式數位行銷</h2>
@@ -137,8 +137,8 @@ export default {
                     </div>
 
                      <div class="serviceWindowRight">
-                        <span class="arrow border-b"><img  src="/img/arrow.svg" alt=""></span>
-                        <span class="arrow border-t absolute bottom-0"><img class="transform rotate-180"  src="/img/arrow.svg" alt=""></span>
+                        <span class="arrow border-b"><img  src="img/arrow.svg" alt=""></span>
+                        <span class="arrow border-t absolute bottom-0"><img class="transform rotate-180"  src="img/arrow.svg" alt=""></span>
                         <span class="scrollBar"></span>
                     </div>
 
