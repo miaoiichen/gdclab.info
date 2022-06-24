@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="41" viewBox="0 0 42 41">
+  <g id="Group_22" data-name="Group 22" transform="translate(-1456 -1418)">
+    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(1456 1418)" fill="none" stroke="#ff319f" stroke-width="2">
+      <ellipse cx="21" cy="20.5" rx="21" ry="20.5" stroke="none"/>
+      <ellipse cx="21" cy="20.5" rx="20" ry="19.5" fill="none"/>
+    </g>
+    <g id="Group_21" data-name="Group 21" transform="translate(1464.916 1427.407)">
+      <rect id="Rectangle_41" data-name="Rectangle 41" width="4.884" height="8.062" transform="translate(0 6.841)" fill="none" stroke="#ff319f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_98" data-name="Path 98" d="M18.862,17.118l8.378-6.866V32.224l-8.378-7.069" transform="translate(-13.978 -10.252)" fill="none" stroke="#ff319f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_99" data-name="Path 99" d="M29.036,14.664a6.483,6.483,0,0,1,2.892,5.65,6.472,6.472,0,0,1-2.921,5.668" transform="translate(-11.944 -9.367)" fill="none" stroke="#ff319f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_100" data-name="Path 100" d="M30.947,12.648a9.148,9.148,0,0,1,4.079,7.97,9.13,9.13,0,0,1-4.12,7.993" transform="translate(-11.563 -9.772)" fill="none" stroke="#ff319f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
